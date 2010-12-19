@@ -1,0 +1,14 @@
+Apparently, a common programming interview question these days is to write a
+function that reverses a linked list. Sometimes they explicitly request a
+recursive or iterative solution. Like most bare data structure programming,
+getting this right is surprisingly finicky (which is why most of us these days
+use nice libraries that provide higher-level abstractions for this).
+
+Just to make sure I'm keeping my tools sharp, I went ahead and implemented this
+in all four permutations of:
+
+- Recursive or iterative
+- In-place or creating a new list
+
+Unsurprisingly to any functional programmer, the recursive immutable list one is
+the most terse.
